@@ -1,0 +1,64 @@
+<html>
+<body>
+
+
+
+Dies ist ein Generator für eine eigene Informationsfreiheitssatzung einer hessischen Kommune.
+
+<strong>Anleitung:</strong> Alle Felder entsprechend ausfüllen und nach <strong>"Senden"</strong> wird auf Basis einer Mustersatzung eine lokalisierte Version einer Satzung erzeugt.
+
+<form action="ifs.php" method="post" target="_blank">
+<table>
+<tr>
+<td>Verwaltungseinheit<span style="color: #ff0000;">*</span>:</td>
+<td><select name="ORG">
+<option value="GEMEINDE">Gemeinde</option>
+<option value="STADT">Stadt</option>
+<option value="STADT_GR">große Stadt (&gt; 50.000 Einwohner)</option>
+<option value="STADT_KF">kreisfreie Stadt</option>
+<option value="LK">Landkreis</option>
+</select></td></tr>
+<tr>
+<td>Name der Verwaltungseinheit<span style="color: #ff0000;">*</span>:</td>
+<td><input name="NAME" type="text" value="Grävenwiesbach" /></td></tr>
+<td>Informationsfreihheitsbeauftragter<span style="color: #ff0000;">*</span>:</td>
+<td><select name="IFB">
+<option value="IFB">eigener Informationsfreiheitsbeauftrageter</option>
+<option value="DSB">Übernahme der Funktion durch Datenschutzbeauftragten</option>
+</select></td></tr>
+<tr>
+<td>einfache Erledigungsfrist<span style="color: #ff0000;">*</span>:</td>
+<td><input name="EINFACHE_FRIST" type="text" value="2 Wochen" /></td></tr>
+<tr>
+<td>verlängerte Erledigungsfrist<span style="color: #ff0000;">*</span>:</td>
+<td><input name="FRIST" type="text" value="1 Monat" /></td></tr>
+<tr>
+<td>Kosten*:</td>
+<td><select name="KOSTEN">
+<option value="NUR_PAPIER">grundsätzlich kostenfrei, nur Kopier- und ggf. Versandkosten</option>
+<option value="SATZUNG_EIGEN">gemäß vorhandener Kostensatzung</option>
+<option value="SATZUNG_HVwKostG">nach Hessischem Verwaltungskostengesetz (HVwKostG)</option>
+<option value="PAUSCHAL">Kostenpauschale</option>
+</select>(wenn "Kostenpauschale" ausgewählt) Kostenpauschale in Höhe von € <input name="PAUSCHALE" type="number" value="0" /></td></tr>
+<tr>
+<td>Beschlossen in Sitzung am<span style="color: #ff0000;">*</span>:</td>
+<td><input name="SITZUNG_DATE" type="date" value="2016-06-01" /></td></tr>
+<tr>
+<td>Inkrafttreten<span style="color: #ff0000;">*</span>:</td>
+<td><input name="INKRAFTTRETEN" type="date" value="2016-07-01" /></td></tr>
+<tr>
+<td>Befristung<span style="color: #ff0000;">*</span>:</td>
+<td><input checked="checked" name="BEFRISTUNG_BIS" type="radio" value="no" />nein<input name="BEFRISTUNG_BIS" type="radio" value="yes" />ja bis <input name="BEFRISTUNG_BIS_DATE" type="text" value="2 Jahre" /> ab Inkrafttreten</td></tr>
+<tr>
+<td>Nur Informationen ab<span style="color: #ff0000;">*</span>:</td>
+<td><input checked="checked" name="BEFRISTUNG_AB" type="radio" value="no" />nein<input name="BEFRISTUNG_AB" type="radio" value="yes" />ja <input name="BEFRISTUNG_AB_DATE" type="date" value="2008-01-01" /></td></tr>
+</td></tr>
+</table>
+<input type="submit" />
+
+</form>
+
+
+
+</body>
+</html>
