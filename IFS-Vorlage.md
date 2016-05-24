@@ -145,6 +145,8 @@ Diese Satzung tritt am °INKRAFTTRETEN° in Kraft. °BEFRISTUNGSKLAUSEL°
 Dieses Werk ist lizenziert unter einer [Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz](http://creativecommons.org/licenses/by-sa/4.0/).
 Quelle: [informationsfreiheit.org](http://informationsfreiheit.org/mustersatzung/) mit Modifikationen.
 
-Version 20160524-01 von www.gruenenwiesbach.de/ifs.html
+Version 20160524-03 von [IFS Generator auf Gruenenwiesbach.de](https://gruenenwiesbach.de/ifs.html)
 
 Author IFS Generator: Christian Tramnitz, BÜNDNIS 90/DIE GRÜNEN Ortsverband Grävenwiesbach (Hessen)
+
+Source: [https://github.com/ctr49/ifs-generator](https://github.com/ctr49/ifs-generator)
