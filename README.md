@@ -11,7 +11,7 @@ Generiere eine Informationsfreiheitssatzung für eine hessische Kommune
 
 
 ## Beispiel
-[IFS Generator auf Gruenenwiesbach.de](https://gruenenwiesbach.de/ifs.html)
+[IFS Generator auf Gruenenwiesbach.de](https://gruenenwiesbach.de/ifs.html/)
 
 ## Lizenz
 - Code (HTML, PHP): GPL 3.0, siehe License
